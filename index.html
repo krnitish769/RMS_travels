@@ -5,17 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RMS Travels</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div id="title">
-            <h1>RMS Travels</h1>
+    <header id="header" class="flexNormal">
+        <div class="headerBox flexNormal">
+            <div class="logoBox flexNormal">
+                <h1 id="logo" class="flexNormal">RMS</h1>
+            </div>
+            <div class="headerContents flexColumn">
+                <div id="navHeader">
+                    <ul>
+                        <li>Contact</li>
+                        <li>Accout</li>
+                        <li>Search</li>
+                    </ul>
+                </div>
+                <div class="headerOptionsBox">
+                    <div class="headerOptions">
+                        <ul>
+                            <li>Option1</li>
+                            <li>Option2</li>
+                            <li>Option3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <main>
-        Main Content
+
+    <main id="main" class="flexNormal">
+        <div id="contents" class="flexColumn">
+            <div class="places flexNormal">
+                <div class="placeBox">
+                    <div id="imageBox" class="flexNormal">
+                        <button id="slideLeft" class="slideAnimation">
+                            <i class="fa-duotone fa-solid fa-chevron-left"></i>
+                        </button>
+                        <h1>Place Name</h1>
+                        <button id="slideright" class="slideAnimation">
+                            <i class="fa-duotone fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mainContents flexNormal">
+                Main contents
+            </div>
+            <div class="mapBox flexNormal">
+                <div id="map">
+                    The map will be here..
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
+    
+    <footer id="footer" class="flexNormal">
         Made with Love | Made by Team
     </footer>
     
